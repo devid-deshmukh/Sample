@@ -32,3 +32,18 @@ let fix=o.toLocaleString()
 console.log(fix)
 let t=Date.now()
 console.log(t)
+ arr=[2,4,6,8]
+console.log(arr[1])
+console.log(arr)
+arr.reverse()
+console.log(arr)
+const person=
+{
+    name:"David",
+    sex:"female",
+
+    greet: function() {
+        console.log(`hello world ${this.name} here and am a ${this.sex}`);
+    }
+}
+person.greet();
